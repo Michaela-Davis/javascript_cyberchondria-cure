@@ -12,8 +12,9 @@ _A website where users may enter a medical issue into a form, submit it, and rec
 ## Setup
 1. Run `$ npm install`.
 2. Run `$ bower install`.
-3. Run `$ gulp build`.
-4. Run `$ gulp serve`.
+3. Run `$ echo >> .env "exports.apiKey = '{API_KEY}';"`.
+4. Run `$ gulp build`.
+5. Run `$ gulp serve`.
 
 ## Specifications
 |    *Behavior*   |    *Input*    |     *Output*    |
@@ -38,9 +39,6 @@ _Please contact michaela.delight@gmail.com with questions or concerns._
 * _Node.js_
 * _Npm_
 
-### License
-
-*MIT License*
 
 ## Planning
 
@@ -59,5 +57,8 @@ _Please contact michaela.delight@gmail.com with questions or concerns._
   * Delete unused or commented out...
   * Make final README edits, if necessary
 
+  ### License
+
+  *MIT License*
 
 Copyright (c) 2017 **_Michaela Davis_**
