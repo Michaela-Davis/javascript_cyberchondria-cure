@@ -1,6 +1,23 @@
 body,
 h1,
-h2,
-h3 {
+h4 {
   font-family: 'Fjalla One', sans-serif;
+}
+
+.container {
+  padding: 70px;
+}
+
+.medicalIssue {
+  font-size: 1.5em;
+}
+
+.btn,
+.teal {
+  background-color: teal;
+  color: white;
+}
+
+.teal-text {
+  color: teal;
 }

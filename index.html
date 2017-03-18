@@ -2,6 +2,7 @@
 <html>
 <head>
   <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link rel="stylesheet" href="build/css/vendor.css">
   <link rel='stylesheet' href='css/styles.css' type='text/css'>
   <script src="build/js/vendor.min.js"></script>
@@ -11,13 +12,13 @@
 <body>
   <div class="container">
 
-    <h1>Cyberchondria Cure</h1>
+    <h1><i class="fa fa-user-md fa-2x" aria-hidden="true"></i>&nbsp;&nbsp;Cyberchondria Cure</h1>
     <div> <!-- using a form here creates an HTTP request that breaks things - changing it to a div is easier than adding in event.preventDefault() -->
-      <h2>Find a real doctor to cure your cyberchondria!</h2><br>
-      <label for="medicalIssue">Enter a medical issue:</label>
-      <input id="medicalIssue" type="text"> &nbsp;&nbsp;
+      <h4 class="teal-text">Find a real, live doctor in your area to cure internet-induced hypochondria!</h4><br>
+      <label class="medicalIssue" for="medicalIssue">Enter a medical issue or injured body part:</label>&nbsp;&nbsp;
+      <input class="input-lg" id="medicalIssue" type="text"> &nbsp;&nbsp;
 
-      <button class="btn btn-success" id="medicalIssue-doctors">See Doctor List!</button><br><br>
+      <button class="btn teal" id="medicalIssue-doctors">See Doctor List!</button><br><br>
       <div class="showSymptom"></div><br>
       <ul class="showDoctors"></ul>
     </div>
