@@ -12,14 +12,15 @@
   <div class="container">
 
     <h1>Cyberchondria Cure</h1>
-    <form>
+    <div> <!-- using a form here creates an HTTP request that breaks things - changing it to a div is easier than adding in event.preventDefault() -->
       <h2>Find a real doctor to cure your cyberchondria!</h2><br>
       <label for="medicalIssue">Enter a medical issue:</label>
       <input id="medicalIssue" type="text">
 
-      <button class="btn btn-success" id="medicalIssue-doctors">See Doctor List!</button>
+      <button class="btn btn-success" id="medicalIssue-doctors">See Doctor List!</button><br><br>
+      <div class="showSymptom"></div>
       <div class="showDoctors"></div>
-    </form>
+    </div>
 
   </div>
 </body>
