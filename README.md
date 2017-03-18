@@ -13,19 +13,20 @@ _A website where users may enter a medical issue into a form, submit it, and rec
 * Obtain your own BetterDoctors API Key
   * Visit the [BetterDoctors API site](https://developer.betterdoctor.com/) and click “Get a free API key”.
   * Fill out the form, or authenticate with GitHub.
-  * Your API key should be listed on the front page (ex: “a2c356ibgh44…..”) or under My Account > Applications.
+  * Your API key should be listed on the front page (ex: “m2d384djak85…..”) or under My Account > Applications.
 
-1. Run `$ npm install`.
-2. Run `$ bower install`.
-3. Run `$ echo >> .env "exports.apiKey = '{API_KEY}';"`.
-  * Replace `{API_KEY}` with the API key you received from the BetterDoctors API site
-4. Run `$ gulp build`.
-5. Run `$ gulp serve`.
+1. Fork and/or clone this repository from [gitHub](https://github.com/Michaela-Davis/javascript_cyberchondria-cure.git).
+2. Run `$ npm install`.
+3. Run `$ bower install`.
+4. Run `$ echo >> .env "exports.apiKey = '{API_KEY}';"`.
+5. Replace `{API_KEY}` with the API key you received from the BetterDoctors API site
+6. Run `$ gulp build`.
+7. Run `$ gulp serve`.
 
-## Specifications
+## Specification
 |    *Behavior*   |    *Input*    |     *Output*    |
 |-----------------|---------------|-----------------|
-| User enters a medical issue then hits enter or submit button | "Foot" | a list of 20 doctors in Portland that treat input appears |
+| User enters a "medical issue" then hits enter or submit button | "Foot" | a list of 20 doctors in the Portland area who treat the "medical issue" appears |
 
 
 ## Known Bugs
@@ -61,7 +62,7 @@ _Please contact michaela.delight@gmail.com with questions or concerns._
 * Plan UI layout
 * Coding - will probably build front and back end together
 * Polish
-  * Delete unused or commented out...
+  * Delete unused or commented out code
   * Make final README edits, if necessary
 
   ### License
