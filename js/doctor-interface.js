@@ -9,9 +9,13 @@ $(document).ready(function() {
 
     var symptom = $('#medicalIssue').val();
     $('#medicalIssue').val("");
-
-    var doctors = currentDoctorObject.getDoctors(symptom);
-    $('.showDoctors').text("");
     $('.showSymptom').text("Doctors in your area who treat " + symptom + ":");
-    });
+
+    $('.showDoctors').text("");
+
+    var response = currentDoctorObject.getDoctors(symptom);
+    for (var i = 0; i <= 20; i++) {
+      $('.showDoctors').append('<li>' + response.data[i].profile.first_name  + " " + response.data[i].profile.last_name + ", " + response.data[i].profile.title + '</li>');
+    }
+  });
 });
