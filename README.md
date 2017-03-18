@@ -26,7 +26,7 @@ _A website where users may enter a medical issue into a form, submit it, and rec
 ## Specification
 |    *Behavior*   |    *Input*    |     *Output*    |
 |-----------------|---------------|-----------------|
-| User enters a "medical issue" then hits enter or submit button | "Foot" | a list of 20 doctors in the Portland area who treat the "medical issue" appears |
+| User enters a "medical issue" then clicks submit button | "Foot" | a list of 20 doctors in the Portland area who treat the "medical issue" appears |
 
 
 ## Known Bugs
