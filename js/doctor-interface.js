@@ -11,6 +11,7 @@ $(document).ready(function() {
     $('#medicalIssue').val("");
 
     var doctors = currentDoctorObject.getDoctors(symptom);
+    $('.showDoctors').text("");
     $('.showSymptom').text("Doctors in your area who treat " + symptom + ":");
     });
 });
